@@ -1,20 +1,4 @@
-Of course. Here is a professional and impressive GitHub README description for your Mobile Price Classification project, designed to showcase your skills to recruiters, professors, and fellow data scientists.
-
-Mobile Price Classification: A Supervised Learning Project
-
-![alt text](https://img.shields.io/badge/Python-3.11-3776AB.svg?style=for-the-badge&logo=python)
-
-
-![alt text](https://img.shields.io/badge/scikit--learn-1.4.0-F7931E.svg?style=for-the-badge&logo=scikit-learn)
-
-
-![alt text](https://img.shields.io/badge/pandas-2.1.3-150458.svg?style=for-the-badge&logo=pandas)
-
-
-![alt text](https://img.shields.io/badge/seaborn-0.13.0-0277BD.svg?style=for-the-badge&logo=seaborn)
-
-
-![alt text](https://img.shields.io/badge/Dataset-Kaggle-20BEFF.svg?style=for-the-badge&logo=kaggle)
+ 
 
 📖 Project Overview
 
