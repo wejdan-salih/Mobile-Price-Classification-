@@ -29,10 +29,7 @@ Target Variable: price_range, categorized into four balanced classes:
 3: Very High Cost
 
 The dataset is perfectly balanced, with 500 samples in each class, which ensures that our models are trained without bias and allows for the use of accuracy as a reliable primary metric.
-
-![alt text](path/to/your/class_distribution_plot.png)
-
-(You would save the class distribution plot from your notebook as a PNG and add it here)
+ 
 
 🚀 Project Pipeline
 
@@ -45,10 +42,6 @@ Null & Duplicate Check: The dataset was initially inspected and found to be free
 Handling Invalid Zeros: Certain features like px_height (pixel height) and sc_w (screen width) contained invalid zero values. These were imputed with the median of their respective columns to maintain data integrity.
 
 Exploratory Data Analysis (EDA): A comprehensive EDA was performed to understand feature relationships. A correlation heatmap revealed a strong positive correlation between price_range and ram, identifying RAM as a key predictor.
-
-![alt text](path/to/your/correlation_heatmap.png)
-
-(Save the correlation heatmap from your notebook and add it here)
 
 2. Feature Scaling & Data Splitting
 
@@ -104,51 +97,4 @@ Advanced Models: Implement and evaluate more sophisticated ensemble models like 
 
 Feature Engineering: Explore the creation of new features, such as screen area (sc_h * sc_w) or pixel density, to potentially improve model performance.
 
-⚙️ How to Run
-
-To replicate this project on your local machine, follow these steps:
-
-Clone the repository:
-
-Generated bash
-git clone https://github.com/your-username/mobile-price-classification.git
-cd mobile-price-classification
-
-
-Set up a virtual environment (recommended):
-
-Generated bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Bash
-IGNORE_WHEN_COPYING_END
-
-Install the required dependencies:
-
-Generated bash
-pip install -r requirements.txt
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Bash
-IGNORE_WHEN_COPYING_END
-
-(Note: You will need to create a requirements.txt file by running pip freeze > requirements.txt in your environment.)
-
-Launch Jupyter Notebook:
-
-Generated bash
-jupyter notebook
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Bash
-IGNORE_WHEN_COPYING_END
-
-Open and run the assignment.ML.wejdanAIU.ipynb notebook. Ensure the train.csv file is in the same directory.
+ 
